@@ -10,4 +10,3 @@ class Ebook extends Produto
         $this->link = $xLink;
     }
 }
-?>

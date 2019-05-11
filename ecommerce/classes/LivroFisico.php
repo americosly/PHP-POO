@@ -4,11 +4,13 @@ class LivroFisico extends Produto
 {
     private $quantidadePaginas;
 
-    public function __construct(float $xPreco, string $xNome, string $xDescricao, int $xQuantidadePaginas)
-    {
+    public function __construct(
+        float $xPreco,
+        string $xNome,
+        string $xDescricao,
+        int $xQuantidadePaginas
+    ) {
         parent::__construct($xPreco, $xNome, $xDescricao);
-        $this->QuantidadePaginas = $xQuantidadePaginas;
+        $this->quantidadePaginas = $xQuantidadePaginas;
     }
 }
-
-?>

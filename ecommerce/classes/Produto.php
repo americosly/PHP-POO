@@ -12,5 +12,9 @@ class Produto
         $this->nome = $xNome;
         $this->descricao = $xDescricao;
     }
+
+    public function getPreco()
+    {
+        return $this->preco;
+    }
 }
-?>
